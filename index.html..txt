@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Edifice | Dave's Journal</title>
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --accent-color: #8da9c4; /* Muted Blue */
+            --font-main: 'Georgia', serif;
+            --font-mono: 'Courier New', monospace;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 700px;
+            padding: 40px 20px;
+            width: 100%;
+        }
+
+        header {
+            margin-bottom: 60px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--accent-color);
+            margin-top: 10px;
+            display: block;
+        }
+
+        article {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        h2 a {
+            text-decoration: none;
+            color: var(--text-color);
+            transition: color 0.2s;
+        }
+
+        h2 a:hover {
+            color: var(--accent-color);
+        }
+
+        .meta {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            margin-top: 80px;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>The Edifice</h1>
+            <span class="subtitle">Notes on Medicine, Philosophy, and The Grind.</span>
+        </header>
+
+        <article>
+            <div class="meta">Feb 14, 2026 • Philosophy</div>
+            <h2><a href="#">The Underground Man vs. The Captain</a></h2>
+            <p>
+                Sometimes the hardest battle isn't the anatomy exam; it's the war between the part of you that wants to build an edifice and the part that wants to burn it down.
+            </p>
+            <p>
+                Today, we explore the concept of "Inviolable Discipline" in the face of burnout...
+            </p>
+        </article>
+
+        <article>
+            <div class="meta">Feb 13, 2026 • Medical School</div>
+            <h2><a href="#">Cranial Nerves & Sleep Deprivation</a></h2>
+            <p>
+                Attempting to memorize the path of the Vagus nerve while running on 3 hours of sleep is an exercise in futility. Here is why the glymphatic system matters more than your textbook...
+            </p>
+        </article>
+
+        <footer>
+            &copy; 2026 Dave. Built in Ruiru.
+        </footer>
+    </div>
+
+</body>
+</html>
