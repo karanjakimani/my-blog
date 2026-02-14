@@ -1,0 +1,42 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.article-card {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+    }
+    .article-card {
+        margin: 10px;
+    }
+}
